@@ -1,0 +1,580 @@
+*{
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.clr
+{
+    clear: both;
+}
+/*======================= navbar========================*/
+.navbar
+{  position: fixed;
+    height: auto;
+    width: 100%;
+    
+}
+
+.navbar-nav
+{
+    margin: auto;
+}
+.nav-item :hover
+{
+color:#20c997 !important;
+}
+/*=========================== home =====================*/
+.home
+{   
+    background-image: url(images/intro-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 0px;
+  
+    
+}
+.capture
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 1000px;
+}
+.layer
+{
+    background-color:rgba(0, 0, 0, 0.8);
+    height: 1000px;
+    
+}
+
+.text-home
+{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.text-home h3{
+color: #dee3e4;
+}
+.btn
+{  
+    width: 146px;
+    height: 53px;
+    border-radius: 800px;
+    border-color:#20c997 ;
+    color: #20c997;
+    padding: 3%;
+}
+.btn:hover
+{
+    background-color:#20c997 ;
+    color: white;
+}
+/*================================= About me ===================*/
+.know-me-more{
+    width: 90%;
+    margin-top: 50px;
+}
+.know-me 
+{
+ position: absolute;
+ top:1100px;
+ left: 35%;
+}
+.know-me p{
+    text-align: center;
+    font-size: 50px;
+    
+    
+}
+.border1
+{    margin: auto;
+    border-bottom:#20c997 solid 3px;
+    width: 30%;
+
+}
+.about-me{
+    position: relative;
+}
+.about-me h1{
+    text-align: center;
+    color:#dee3e4;
+    opacity: 0.4;
+    font-size:150px;
+    font-weight: bold;
+}
+
+
+
+/*================================= About me info ===================*/
+.about{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.about span{
+    color: #20c997;
+}
+.first-part{
+    width: 60%;
+    margin: auto;
+}
+.info{
+    width: 30%;
+    margin: auto;
+}
+.btn2{
+    width: 196px;
+    height: 53px;
+    font-size: 16px;
+    color:#ffffff;
+    background-color: #20c997;
+    border-radius: 800px;
+    border-style: none;
+}
+.border{
+    border: #4c4d4d solid 1px;
+}
+
+/*=========================== counter ======================*/
+.number
+{   
+    width: 90%;
+    margin: auto;
+    margin-top: 10% ;
+    display: flex;
+    
+}
+.number p{
+    font-size: 55px;
+    color: #6c757d;
+}
+.number h2{
+    font-size: 20px;
+    color: #4c4d4d;
+}
+.years
+{  text-align: center;
+    width: 25%;
+ justify-content: space-between;
+ border-right:#6c757d dotted 1px; 
+}
+.clients
+{   
+     text-align: center;
+     width: 25%;
+    justify-content: space-between;
+    border-right:#6c757d dotted 1px; 
+}
+.projects
+{
+    text-align: center;
+    width: 25%;
+    justify-content: space-between;
+    border-right:#6c757d dotted 1px; 
+}
+.awards
+{text-align: center;
+    width: 25%;
+    justify-content: space-between;
+}
+/*================================= what I do ============================*/
+.what-i-do
+{   background-color: #f8f9fa;
+    width: 100%;
+    margin-top: 50px;
+}
+.what
+{
+ position: absolute;
+ top:1850px;
+ left: 40%;
+}
+.what p{
+    
+    text-align: center;
+    font-size: 50px;
+    
+    
+}
+.border2
+{    margin: auto;
+    border-bottom:#20c997 solid 3px;
+    width: 30%;
+
+}
+.services{
+    position: relative;
+}
+.services h1{
+    text-align: center;
+    color:#dee3e4;
+    opacity: 0.4;
+    font-size:150px;
+    font-weight: bold;
+}
+/* =================================== skills =========================*/
+.skills
+{
+    background-color: #f8f9fa;
+    width: 90%;
+    display: flex;
+    margin: auto 20px;
+
+}
+.skills h2{
+    color: #252b33;
+}
+.skills p{
+    color: #4c4d4d;
+}
+.left
+{   justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 10%;
+    
+}
+.left  img{
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+.right
+{  justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 10%;
+}
+.right img{
+
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    
+}
+/*================================== resume ===========================*/
+.resume
+{
+    width: 100%;
+    margin-top:50px;
+}
+.resume-text
+{
+    position: absolute;
+    top:2435px;
+    left: 43%;
+}
+.resume-text p{
+    text-align: center;
+    font-size: 40px;
+    
+}
+.border3
+{    
+    border-bottom:#20c997 solid 3px;
+    width: 50%;
+    margin: auto;
+}
+.summary{
+    position: relative;
+}
+.summary h1{
+    text-align: center;
+    color:#dee3e4;
+    opacity: 0.4;
+    font-size:150px;
+    font-weight: bold;
+}
+/* ================================ cv ===============================*/
+.cv{
+width: 90%;
+margin: auto 20px;
+display: flex;
+}
+.cv-left
+{
+justify-content: space-between;
+flex-direction: column;
+padding-left: 10%;
+}
+.cv-right
+{
+    justify-content: space-between;
+    flex-direction: column; 
+    padding-left: 10%;  
+}
+.bg-primary {
+    background-color: #20c997 !important;
+
+}
+.cs,.master,.bachelor,.jr-ui,.jr-product,.Product
+{
+    border:1px solid #dee2e6;
+    border-radius: 10px;
+    padding: auto;
+    margin: 5%;
+}
+/* ===================== skills ===========================*/
+/* ========================= PORTFOLIO  ==========================*/
+.portfolio
+{
+    width: 100%;
+    margin-top: 50px;
+    background-color: #f8f9fa;
+}
+.port-text h1
+{
+    opacity: 0.4;
+    font-size: 150px; 
+    color:#dee3e4;
+    text-align: center;
+    font-weight: bold;
+}
+.port-text
+{
+position: relative;
+}
+.my-work
+{
+    position: absolute;
+    top:3350px;
+    left: 40%;
+}
+.my-work p
+{
+    text-align: center;
+    font-size: 50px;
+}
+.border4
+{
+    margin: auto;
+    border-bottom:#20c997 solid 3px;
+    width: 30%;
+}
+/*======================================== PORTFOLIO-imgs =================================*/
+.port-img
+{
+    width: 100%;
+    background-color: #f8f9fa;
+
+}
+.anchor
+{
+    display: flex;
+    justify-content: center;
+}
+.anchor a
+{ 
+    text-decoration: none;
+    padding-right:10px;
+    color: #7b8084;
+    
+}
+.anchor  :hover
+{
+    color: #20c997;
+}
+.col{
+    display: flex;
+    justify-content: center;
+    
+}
+.col img{
+    width: 90%;
+}
+.col1,.col2,.col3
+{
+    width: 30%;
+}
+.col1 img ,.col2 img ,.col3 img
+{
+   padding-top: 5%;
+   padding-bottom: 5%;
+}
+/*======================================= client ========================*/
+.client{
+    width: 100%;
+    margin-top: 50px;
+} 
+.client-text h1
+{
+    opacity: 0.4;
+    font-size: 150px;
+    font-weight: bold;
+    text-align: center;
+    color:#dee3e4;
+}
+.client-text
+{
+    position: relative;
+}
+.client-speak
+{
+    position:absolute;
+    left:40%;
+    top:4800px;
+}
+.client-speak p
+{
+    text-align: center;
+    font-size: 50px;
+}
+.border5
+{
+    margin: auto;
+    border-bottom:#20c997 solid 3px;
+    width: 30%;
+}
+/*===================================== client feedback =============================*/
+.feedback
+{
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+   padding: 5%;
+}
+.dennis , .jay
+{   padding: 5%;
+    background-color: #f8f9fa;
+    width: 45%;
+    border-radius: 5px;
+
+}
+.jay-img img , .dennis-img img
+{
+    border-radius: 50%;
+    float: left;
+}
+.jay-headline h3,.dennis-headline h3
+{
+    font-size: 20px;
+    color: #6c757d;
+}
+/* ==================================== contact=================================== */
+.contect{
+    width: 100%;
+    margin-top: 50px;
+} 
+.get-in-touch h1
+{
+    opacity: 0.4;
+    font-size: 150px;
+    font-weight: bold;
+    text-align: center;
+    color:#dee3e4;
+}
+.get-in-touch
+{
+    position: relative;
+}
+.contect-text
+{
+    position:absolute;
+    left:40%;
+    top:5500px;
+}
+.contect-text p
+{
+    text-align: center;
+    font-size: 50px;
+}
+.border6
+{
+    margin: auto;
+    border-bottom:#20c997 solid 3px;
+    width: 30%;
+}
+/* ================================ contact us ================================== */
+.bg-color{
+    background-color: #f8f9fa;
+}
+.container{
+    width: 90%;
+    margin: auto;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info{
+    width:20%;
+}
+.info1{
+    padding: 20px 7px;
+}
+.contact-info img {
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+.inputs{
+    width: 70%;
+}
+.input-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputs input , .inputs textarea{
+ margin: 20px;
+ width: 96%;
+}
+.sbtn{
+    width: 204px;
+    height: 53px;
+    background-color: #20c997;
+    border-radius: 800px;
+    color: #ffffff;
+    border-style: none;
+}
+.btn-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ======================================== footer==================================== */
+.all{
+    width: 90%;
+    margin: auto;
+    height: 140px;
+    padding: 40px;
+}
+.l-footer{
+    float: left;
+}
+.l-footer span{
+    color: #20c997;
+}
+.r-footer{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.r-footer p:hover{
+  color: #20c997;
+}
+.border7{
+    height: 10px;
+    width: 1px;
+    border: #dee2e6 solid 0.5px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+/* ================================== slider =============================== */
+.slider{
+    position: fixed;
+    top: 250px;
+    right: 0px;
+}
+.slider img{
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
